@@ -1,0 +1,142 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*-------------------------------------------------------------*/
+
+body{
+  background: rgba(15,10, 60, 0.3);
+}
+
+#container{
+  background-image: url(/resources/image/city.jpeg);
+  background-repeat: round;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  display: flex;
+}
+
+#divContainer{
+  width: 900px;
+  height: 500px;
+  border: 1px solid #4B0082;
+  border-radius: 15px 15px 15px 15px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  display: flex;
+  margin-top: 70px;
+}
+
+#menu{
+  width: 250px;
+  height: auto;
+}
+
+#myProfile, #myPhoto, #searchMenu, #myGuests, #myMessages{
+  width: 250px;
+  height: 100px;
+  background: #4B0082;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 35px;
+  border-top: 1px solid gray;
+}
+#myProfile{
+  border-radius: 15px 0px 0px 0px;
+}
+
+#myMessages{
+  border-radius: 0px 0px 0px 15px;
+}
+
+#myProfile:hover, #myPhoto:hover, #searchMenu:hover, #myGuests:hover,
+#myMessages:hover{
+  font-size: 22px;
+}
+
+#myProfile:active, #myPhoto:active, #searchMenu:active, #myGuests:active,
+#myMessages:active{
+  font-size: 20px;
+}
+
+#searchPeople {
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  margin: 20px 0px 0px 20px;
+  border: 1px solid #4B0082;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#searchDiv{
+  overflow: auto;
+}
+
+#searchPeople:hover{
+  background: #4B0082;
+  color: white;
+}
+
+
+
+
